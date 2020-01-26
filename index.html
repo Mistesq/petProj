@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cats</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__content closed">
+      <div class="page-header__logo-wrapper">
+        <a href="/" title="← Back to the homepage" class="page-header__logo-link logo">
+          <img width="160" height="98" src="img/logo.jpg" alt="logo">
+        </a>
+      </div>
+      <buttton class="page-header__menu-toggle page-header__menu-toggle--m">
+        <span class="page-header__menu-toggle-text">Menu</span>
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path>
+        </svg>
+      </buttton>
+
+      <nav class="page-header__menu page-header__menu--small">
+        <ul class="page-header__site-list site-list">
+          <li class="site-list__item site-list__item--no-border m-drawer">
+
+            <button class="m-drawer__content-toggle m-title">
+                <span class="m-drawer__text">Features</span>
+              <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="m-drawer__content">
+              <ul class="site-list">
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-1.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Dynamic Libraries</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-2.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Continuous Delivery System</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-3.png" alt="">
+                    </div>
+                    <span class="site-list__link-text">Atomic Hand-off</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="site-list__item">
+            <a href="" class="site-list__link">Community</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <nav class="page-header__menu page-header__menu--large">
+        <ul class="page-header__list ">
+          <li class="page-header__item page-header__menu-toggle page-header__item--has-menu">
+            Photo Albums
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+              <ul class="page-header__item-menu site-list">
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-1.png" alt="Dynamic Libraries icon">
+                    </div>
+                    <span class="site-list__link-text">Album 1</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-2.png" alt="Continuous Delivery System icon">
+                    </div>
+                    <span class="site-list__link-text">Album 2</span>
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="" class="site-list__link">
+                    <div class="site-list__link-img">
+                      <img width="40" height="40" src="img/visual-3.png" alt="Atomic Hand-off icon">
+                    </div>
+                    <span class="site-list__link-text">Album 3</span>
+                  </a>
+                </li>
+              </ul>
+          </li>
+
+          <li class="page-header__item">
+            <a href="page-header__link" class="">More Cats?</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="main-section">
+      <h2 data-aos="fade-zoom-in" class="main-section__title">Build your company</h2>
+
+      <p data-aos="fade-up" class="main-section__subtitle">
+        Make your product evolve coherently and scale your product teams at the right pace.
+      </p>
+
+      <ul class="main-section__list object-list">
+        <li data-aos="fade-zoom-in" class="object-list__item">
+          <div class="object-list__visual">
+            <img src="img/feature1.png" alt="cat">
+          </div>
+          <div class="object-list__body">
+            <h3 class="object-list__title">A bridge for product teams</h3>
+
+            <p class="object-list__text">
+              Your entire company is going to speak the same language by accessing the only source of truth you created.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-zoom-in" class="object-list__item">
+          <div class="object-list__visual">
+            <img src="img/feature2.png" alt="cat">
+          </div>
+          <div class="object-list__body">
+            <h3 class="object-list__title">Speed up daily production</h3>
+
+            <p class="object-list__text">
+              Gain hours of work maintaining your code and reduce product debt. Say hello to a new kind of team velocity.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-zoom-in" class="object-list__item">
+          <div class="object-list__visual">
+            <img src="img/feature3.png" alt="cat">
+          </div>
+          <div class="object-list__body">
+            <h3 class="object-list__title">Brand onsistency</h3>
+
+            <p class="object-list__text">
+              Specify helps you keep the same identity across all the platforms you use. Increase your incomes and speed-up your time to market.
+            </p>
+          </div>
+        </li>
+
+        <li data-aos="fade-zoom-in" class="object-list__item">
+          <div class="object-list__visual">
+            <img src="img/feature4.png" alt="cat">
+          </div>
+          <div class="object-list__body">
+            <h3 class="object-list__title">Facilitate team scaling</h3>
+
+            <p class="object-list__text">
+              Every resources to start with are in Specify. Spend less time to onboard new co-workers. Start working faster and focus on what matters: users.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="main-section">
+      <h2 data-aos="fade-zoom-in" class="main-section__title">A unified space for your daily work</h2>
+
+      <p data-aos="fade-up" class="main-section__subtitle">
+        Provides all the tools needed to be ready to build the next generation of products software.
+      </p>
+
+      <div class="main-section__list main-section__list--toggle feature-player">
+        <div data-aos="fade-up" class="feature-player__visual">
+          <video playsinline="" muted="" autoplay="" loop="" src="img/cat_washer.mp4">
+          </video>
+        </div>
+        <ul class="feature-player__feature-list fp-toggle-list">
+
+          <li data-aos="fade-up" data-aos-delay="400" class="fp-toggle-list__item fp-toggle">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="img/libr.png" alt="Dynamic libraries icon">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">Dynamic libraries <br> for styles and assets</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+              </div>
+            </div>
+            <div class="fp-toggle__feature-preview">
+              <img src="img/book.png" alt="libraries">
+            </div>
+            <div class="fp-toggle__play-bar"></div>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="700" class="fp-toggle-list__item fp-toggle">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="img/delivery.png" alt="delivery system icon">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">The new continuous <br> delivery system</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+              </div>
+            </div>
+            <div class="fp-toggle__feature-preview">
+              <img src="img/laptop.png" alt="laptop">
+            </div>
+            <div class="fp-toggle__play-bar"></div>
+          </li>
+          <li data-aos="fade-up" data-aos-delay="1000" class="fp-toggle-list__item fp-toggle">
+            <div class="fp-toggle__main-content">
+              <div class="fp-toggle__visual">
+                <img src="img/rocket.png" alt="Atomic hand-off icon">
+              </div>
+              <div class="fp-toggle__body">
+                <h3 class="fp-toggle__title">Atomic hand-off &amp; component focused</h3>
+                <a href="/feature/design-system-manager/" class="fp-toggle__link">Learn more ›</a>
+              </div>
+            </div>
+            <div class="fp-toggle__feature-preview">
+              <img src="img/wow.png" alt="wow">
+            </div>
+            <div class="fp-toggle__play-bar"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__content">
+      <div class="page-footer__head">
+        <div class="page-footer__logo ">
+          <a href="/" title="← Back to the homepage" class="page-footer__logo-link logo ">
+            <img width="160" height="98" src="img/logo.jpg" alt="logo">
+          </a>
+        </div>
+        <div class="page-footer__main-infos page-footer__main-infos--small">
+          <div class="page-footer__main-info closed">
+            <button class="m-drawer__content-toggle m-title m-drawer__content-toggle m-title--border-top">
+              <span class="m-drawer__text m-drawer__text--bold">Features</span>
+              <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="m-drawer__content">
+              <ul class="site-list">
+                <li class="site-list__item">
+                  <a href="/feature/design-system-manager" class="site-list__link">
+                    Dynamic Libraries
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/continuous-delivery-system" class="site-list__link">
+                    Continuous Delivery System
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/atomic-hand-off" class="site-list__link">
+                    Atomic Hand-off
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="page-footer__main-info closed">
+            <button class="m-drawer__content-toggle m-title">
+              <span class="m-drawer__text m-drawer__text--bold">Community</span>
+              <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="m-drawer__content">
+              <ul class="site-list">
+                <li class="site-list__item">
+                  <a href="/feature/design-system-manager" class="site-list__link">
+                    Facebook
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/continuous-delivery-system" class="site-list__link">
+                    Slack
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/atomic-hand-off" class="site-list__link">
+                    Spectrum
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/atomic-hand-off" class="site-list__link">
+                    Roadmap
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="page-footer__main-info closed">
+            <button class="m-drawer__content-toggle m-title">
+              <span class="m-drawer__text m-drawer__text--bold">Legal</span>
+              <svg width="16" height="16" class="m-drawer__icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </button>
+            <div class="m-drawer__content">
+              <ul class="site-list">
+                <li class="site-list__item">
+                  <a href="/feature/design-system-manager" class="site-list__link">
+                    Privacy policy
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/continuous-delivery-system" class="site-list__link">
+                    Terms and services
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="/feature/atomic-hand-off" class="site-list__link">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer__main-infos page-footer__main-infos--large">
+          <div class="page-footer__main-info closed">
+            <h4 class="page-footer__main-info-title">Features</h4>
+            <ul class="site-list site-list--d-footer">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                  Dynamic Libraries
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Continuous Delivery System
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Atomic Hand-off
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="page-footer__main-info closed">
+            <h4 class="page-footer__main-info-title">Community</h4>
+            <ul class="site-list site-list--d-footer">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                  Facebook
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Slack
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Spectrum
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Roadmap
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="page-footer__main-info closed">
+            <h4 class="page-footer__main-info-title">Legal</h4>
+            <ul class="site-list site-list--d-footer">
+              <li class="site-list__item">
+                <a href="/feature/design-system-manager" class="site-list__link">
+                  Privacy policy
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/continuous-delivery-system" class="site-list__link">
+                  Terms and services
+                </a>
+              </li>
+              <li class="site-list__item">
+                <a href="/feature/atomic-hand-off" class="site-list__link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="page-footer__secondary-infos">
+        <ul class="page-footer__social-network-list social-network-list">
+          <li class="social-network__item">
+            <a href="https://www.facebook.com/specifyapp/" aria-label="Visit our Facebook community" target="_blank" class="social-network__link">
+              <svg width="16" height="16" viewBox="0 0 18 18"><path d="M17.007 0H.993A.993.993 0 0 0 0 .993v16.014c0 .549.445.993.993.993h8.62v-6.97H7.268V8.314h2.346V6.308c0-2.325 1.421-3.59 3.495-3.59.993 0 1.848.074 2.097.107v2.43h-1.441c-1.125 0-1.344.54-1.344 1.328v1.733h2.688l-.349 2.723H12.42V18h4.586c.55 0 .994-.444.994-.993V.993A.993.993 0 0 0 17.007 0" fill="#000" fill-rule="nonzero"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="social-network__item">
+            <a href="https://twitter.com/specifyapp" aria-label="Visit our Twitter community" target="_blank" class="social-network__link">
+              <svg width="16" height="16" viewBox="0 0 20 17"><path d="M19.881 1.928a8.3 8.3 0 0 1-2.344.643 4.115 4.115 0 0 0 1.795-2.26c-.79.46-1.664.796-2.595.983a4.083 4.083 0 0 0-6.959 3.72A11.566 11.566 0 0 1 1.361.759a4.002 4.002 0 0 0-.553 2.055c0 1.419.722 2.666 1.816 3.4a4.07 4.07 0 0 1-1.849-.512v.05c0 1.98 1.405 3.631 3.275 4.007a4.147 4.147 0 0 1-1.836.07 4.097 4.097 0 0 0 3.822 2.837A8.19 8.19 0 0 1 .97 14.413c-.324 0-.646-.02-.971-.056a11.616 11.616 0 0 0 6.272 1.833c7.515 0 11.62-6.221 11.62-11.608 0-.173 0-.348-.013-.523a8.247 8.247 0 0 0 2.041-2.114l-.039-.017z" fill="#000" fill-rule="nonzero"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="social-network__item">
+            <a href="https://medium.com/specify-blog" aria-label="Visit our Medium community" target="_blank" class="social-network__link">
+              <svg width="16" height="16" viewBox="0 0 18 15"><path d="M2.135 3.27a.696.696 0 0 0-.228-.588L.227.657V.355h5.218L9.479 9.2 13.024.355H18v.302l-1.438 1.378a.421.421 0 0 0-.16.403v10.125a.421.421 0 0 0 .16.403l1.403 1.378v.302h-7.058v-.302l1.453-1.412c.143-.142.143-.184.143-.403V4.345L8.46 14.612h-.545L3.208 4.345v6.88c-.038.29.057.58.26.79l1.89 2.295v.301H0v-.302l1.89-2.295a.916.916 0 0 0 .245-.789V3.27z" fill="#000" fill-rule="nonzero"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="page-footer__copyrights">© Copyright 2020 <br> All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
