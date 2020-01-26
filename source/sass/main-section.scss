@@ -19,6 +19,7 @@
 }
 
 .main-section__list {
+  width: 100%;
   margin-top: 48px;
 }
 
@@ -41,6 +42,14 @@
 
 @media (min-width: 920px) {
   .main-section__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 80px;
+
+    &--toggle {
+      margin-top: 0;
+    }
   }
 }

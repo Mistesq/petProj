@@ -35,6 +35,14 @@
     width: 40%;
   }
 
+  .object-list__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    flex-grow: 2;
+  }
+
   .object-list__title {
     font-size: 38px;
     line-height: 55px;
@@ -43,5 +51,8 @@
   .object-list__text {
     font-size: 18px;
     line-height: 32px;
+
+    display: block;
+    align-self: flex-end;
   }
 }
